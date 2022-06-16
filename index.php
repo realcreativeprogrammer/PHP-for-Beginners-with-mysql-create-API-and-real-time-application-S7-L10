@@ -94,7 +94,7 @@ if(isset($_POST['submit'])){
             while($row=$exc->fetch()){
                 echo ' <div class="col-md-3">
                 <div class="thumbnail">
-                        <a herf="'.$row['path'].'">
+                        <a href="'.$row['path'].'">
                             <img src="'.$row['path'].'" style="width:100%">
                             <div class="caption">
                                 <p> id= '.$row['id'].' , path= '.$row['path'].'</p>
